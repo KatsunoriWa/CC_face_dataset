@@ -17,10 +17,16 @@ def download_list(name):
             basename = os.path.basename(url)
             outname = imageDir/ Path(basename)
             if not outname.is_file():
-                urllib.request.urlretrieve(url,"{0}".format(outname))
+                try:
+                    urllib.request.urlretrieve(url,"{0}".format(outname))
+                except:
+                    pass
 
 if __name__ == "__main__":
     name = Path("../urls/baby.txt")
     download_list(name)
     name = Path("../urls/infant.txt")
+    download_list(name)
+
+    name = Path("../urls/url.txt")
     download_list(name)
