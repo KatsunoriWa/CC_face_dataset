@@ -337,3 +337,6 @@ https://cdn.pixabay.com/photo/2016/09/23/04/42/child-1688876_960_720.jpg
 https://cdn.pixabay.com/photo/2018/04/30/15/29/baby-3362974_960_720.jpg
 https://cdn.pixabay.com/photo/2017/07/01/14/38/kids-2461678_960_720.jpg
 https://cdn.pixabay.com/photo/2018/05/24/21/23/boy-3427692_960_720.jpg
+
+https://cdn.pixabay.com/photo/2018/05/13/07/01/girl-3395543_960_720.jpg
+https://cdn.pixabay.com/photo/2018/08/27/11/22/portrait-3634743_960_720.jpg
