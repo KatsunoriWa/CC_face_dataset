@@ -23,10 +23,9 @@ def download_list(name):
                     pass
 
 if __name__ == "__main__":
-    name = Path("../urls/baby.txt")
-    download_list(name)
-    name = Path("../urls/infant.txt")
-    download_list(name)
+    names = Path("../urls").glob("baby*.txt")
+    for name in names:
+        download_list(name)
 
-    name = Path("../urls/url.txt")
+    name = Path("../urls/infant.txt")
     download_list(name)

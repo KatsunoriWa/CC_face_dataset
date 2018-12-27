@@ -11,6 +11,9 @@ You can easily check if the file belong to Creative Commons.
 
 ## How to download images
 
+### Requirements
+Python3
+
 ```
 $ cd scripts
 $ python download_images.py
