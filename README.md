@@ -19,5 +19,10 @@ $ cd scripts
 $ python download_images.py
 ```
 
+## Current status
+Not stable yet.
+Downloaded files should be simple names.
+
+
 ## orignal image licenses
 Creative Commons
