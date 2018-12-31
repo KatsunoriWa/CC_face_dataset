@@ -1,5 +1,5 @@
 # CC_face_dataset
-Creative Common based face dataset
+Creative Commons based face dataset
 
 ## Purpose
 Face Detection purpose.
