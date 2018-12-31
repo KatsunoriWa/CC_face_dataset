@@ -5,9 +5,14 @@ Creative Common based face dataset
 Face Detection purpose.
 Most face database does not contatin babies and infants.
 
+
 ## URLs for each image file.
 This makes git repository small.
 You can easily check if the file belong to Creative Commons.
+
+urls/baby00.txt
+urls/baby01.txt
+urls/infant.txt
 
 ## How to download images
 
@@ -18,6 +23,12 @@ Python3
 $ cd scripts
 $ python download_images.py
 ```
+
+### Image directory structure (after download)
+imageDir/baby00
+imageDir/baby01
+imageDir/infant
+
 
 ## Current status
 Not stable yet.
