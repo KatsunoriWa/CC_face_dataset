@@ -31,6 +31,3 @@ if __name__ == "__main__":
     name = Path("../urls/infant.txt")
     download_list(name)
 
-    if 0:
-        name = Path("../urls/unknown.txt")
-        download_list(name)
