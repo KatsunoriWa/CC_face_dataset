@@ -12,10 +12,10 @@ def download_list(name):
     imageDir.mkdir(parents=True, exist_ok=True)
 
     for i, line in enumerate(open(name, "rt")):
-        if line.find("https") >-1:
+        if line.find("http") > -1:
             url = line.strip()
-#            basename = os.path.basename(url)
-            basename = "%s_%04d.jpg" % (name.stem, i)
+            suffix = url.split(".")[-1].lower().replace("jpeg", "jpg")
+            basename = f"{name.stem}_{i}.{suffix}"
             outname = imageDir/ Path(basename)
             if not outname.is_file():
                 try:
@@ -30,3 +30,7 @@ if __name__ == "__main__":
 
     name = Path("../urls/infant.txt")
     download_list(name)
+
+    if 0:
+        name = Path("../urls/unknown.txt")
+        download_list(name)
