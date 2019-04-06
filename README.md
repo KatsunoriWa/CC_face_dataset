@@ -37,3 +37,11 @@ Downloaded files should be simple names.
 
 ## orignal image licenses
 Creative Commons
+
+----
+# NON Creative Commons
+
+I should split repository.
+
+- ncc_urls/ncc_elder.txt
+- ncc_urls/ncc_kids.txt
