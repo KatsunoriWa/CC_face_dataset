@@ -15,6 +15,8 @@ def download_list(name):
         if line.find("http") > -1:
             url = line.strip()
             suffix = url.split(".")[-1].lower().replace("jpeg", "jpg")
+            if suffix not in (".jpg", ".png"):
+                suffix = "jpg"		 
             basename = f"{name.stem}_{i:04d}.{suffix}"
             outname = imageDir/ Path(basename)
             if not outname.is_file():
